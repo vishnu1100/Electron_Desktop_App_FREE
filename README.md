@@ -27,7 +27,7 @@ To run this framework  locally, follow these steps:
      npm start
      ```
 
-## Packing into a installable exe software 
+## Packing into an installable exe software 
 
 ### For all operating system 
 
