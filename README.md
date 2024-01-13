@@ -8,28 +8,37 @@
 
 To run this framework  locally, follow these steps:
 
-1. Clone this repository to your local machine using the following command:
 
-   ```bash
-   npm install electron --save-dev
+
+1. ```bash
+   git clone https://github.com/vishnu1100/Electron_Desktop_App_FREE.git
    ```
+
 
 2. ```bash
-   git clone https://github.com/electron/electron-quick-start
+   cd Electron_Desktop_App_FREE
    ```
-
 
 3. ```bash
-   cd electron-quick-start
-   ```
-
-4. ```bash
    npm install
    ```
 
-5.  ```bash
+4.  ```bash
      npm start
      ```
 
+## Packing into a installable exe software 
+
+### For all operating system 
 
 
+1. ```bash
+     electron-packager . yournamehere --all
+     ```
+
+### For all windows system 
+
+
+2. ```bash
+     electron-packager . yournamehere --platform=win32
+     ```

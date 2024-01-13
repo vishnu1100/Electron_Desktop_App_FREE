@@ -1,22 +1,16 @@
 {
-  "name": "electron-quick-start",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "description": " PORTFOLIO",
+  "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "VISHNU",
+  "license": "ISC",
   "devDependencies": {
+    "elctron": "^0.0.1-security",
     "electron": "^28.1.3"
   }
 }
