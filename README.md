@@ -29,16 +29,6 @@ To run this framework  locally, follow these steps:
 
 ## Packing into an installable exe software 
 
-### For all operating system 
-
-
 1. ```bash
-     electron-packager . yournamehere --all
-     ```
-
-### For all windows system 
-
-
-2. ```bash
      electron-packager . yournamehere --platform=win32
      ```
